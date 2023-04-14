@@ -35,8 +35,8 @@ font-family: 'Montserrat', sans-serif;
 	background-image: url("../Images/Krediteres Annemone Sommer (1).jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
+
+	background-position: top;
 	height: auto;
 	width: 100%;
 }
@@ -47,11 +47,14 @@ font-family: 'Montserrat', sans-serif;
 
 }
 
-.footer{
+.BackgroundColor{
 	background-color:#0F2233;
 }
 
-.footerIcons {
-	color:#F3F2F0;
-	font-size:30px;
+a{
+	color: #f3f2f0;
+}
+
+a:hover{
+	color: #f3f2f0;
 }
