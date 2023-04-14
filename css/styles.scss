@@ -44,6 +44,7 @@ font-family: 'Montserrat', sans-serif;
 .bio{
 	height: 200px;
 	background-color: #0F2233;
+	z-index: 1;
 
 }
 
@@ -57,4 +58,17 @@ a{
 
 a:hover{
 	color: #f3f2f0;
+}
+
+.SectionMellemrum{
+	margin-top: 200px;
+}
+
+.PaddingOverskrift{
+	padding-top: 250px;
+}
+
+
+.AfstandBunden{
+	margin-bottom: 150px;
 }
