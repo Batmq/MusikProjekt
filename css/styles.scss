@@ -45,6 +45,8 @@ font-family: 'Montserrat', sans-serif;
 	background-color: #0F2233;
 	z-index: 1;
 	font-size: 0.8rem;
+	margin-top: 31rem;
+
 }
 
 .BackgroundColor{
@@ -86,6 +88,14 @@ a:hover{
 /*Transitions når du minimerer vinduet*/
 .container, .row[class*='col']{
 	transition: max-width .3s ease-in-out;
+}
+
+.AfstandBio{
+	margin-top: 30rem;
+}
+
+.MartinValstedAfstand{
+	margin-bottom: 23rem
 }
 
 
