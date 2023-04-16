@@ -42,10 +42,9 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .bio{
-	height: 200px;
 	background-color: #0F2233;
 	z-index: 1;
-
+	font-size: 0.8rem;
 }
 
 .BackgroundColor{
@@ -71,4 +70,39 @@ a:hover{
 
 .AfstandBunden{
 	margin-bottom: 150px;
+}
+
+.LogoStr{
+	height: 60px;
+}
+
+.MartinValstedStr{
+	font-size: 5rem;
+}
+
+.FirsteSectionMellemrum{
+}
+
+/*Transitions når du minimerer vinduet*/
+.container, .row[class*='col']{
+	transition: max-width .3s ease-in-out;
+}
+
+
+@media screen and (min-width: 768px){
+	.bio{
+		font-size: 1.2rem;
+	}
+}
+
+
+@media screen and (min-width: 1024px){
+
+	.MartinValstedStr{
+		font-size: 8rem;
+
+	}
+
+
+
 }
